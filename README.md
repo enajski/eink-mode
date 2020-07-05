@@ -2,6 +2,8 @@
 
 Scrolling on e-ink devices sucks. Tap the left or right side of the web page to scroll the page up or down, just like in an e-book reader.
 
+Check [Releases](https://github.com/enajski/eink-mode/releases) for downloads.
+
 NOTE: this likely won't work for most websites
 
 ## License
