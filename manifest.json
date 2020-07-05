@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "e-Ink mode",
+  "version": "1.0",
+
+  "description": "Allows 'page turning' to emulate ebook readers.",
+
+  "icons": {
+    "512": "icons/512.svg"
+  },
+
+  "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["eink.js"],
+        "run_at": "document_start"
+    }
+  ],
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "eink-mode@enajski.pl"
+        }
+    }
+}
