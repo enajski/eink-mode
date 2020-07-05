@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "e-Ink mode",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Allows 'page turning' to emulate ebook readers.",
 

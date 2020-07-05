@@ -12,6 +12,12 @@ function handleMove(evt) {
 }
 
 function handleEnd(evt) {
+
+    // Don't do anything on drag
+    if (plEnajskiEInkLastMove.type == "touchmove") {
+        return false;
+    }
+
     let evtX = plEnajskiEInkLastMove.touches[plEnajskiEInkLastMove.touches.length - 1].clientX;
     let evtY = plEnajskiEInkLastMove.touches[plEnajskiEInkLastMove.touches.length - 1].clientY;
 
